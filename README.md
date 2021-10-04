@@ -15,5 +15,6 @@ npm install
 ## Running server localy
 
 ```
+php artisan migrate
 php artisan serve
 ```
