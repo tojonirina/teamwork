@@ -1,0 +1,77 @@
+body {
+  font-family: "ubuntu", sans-serif;
+  background-color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bg-dark-blue {
+  background-color: #015A5D;
+  color: #fff;
+}
+
+.text-dark-blue {
+  color: #015A5D;
+}
+
+.btn-dark-blue {
+  background-color: #015A5D;
+  color: #fff;
+}
+
+.btn-dark-blue:hover {
+  background-color: #037377;
+  color: #fff;
+}
+
+.bg-silver-blue {
+  background-color: #DEFFF8;
+}
+
+.team-bloc {
+  padding: 50px;
+}
+
+.refs img {
+  opacity: 0.5;
+  transition: all .4s ease-in-out;
+}
+
+.refs img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.new-letter input {
+  height: 60px;
+}
+
+.project-content {
+  overflow: auto;
+  background-color: whitesmoke;
+}
+
+.stage-bloc {
+  width: 200px;
+}
+@media only screen and (max-width: 540px) {
+
+  .refs img {
+    opacity: 1;
+  }
+  
+  .team-bloc {
+    padding: 10px;
+  }
+
+  .btn-new {
+    width: 100%;
+  }
+}
